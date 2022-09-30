@@ -1,0 +1,36 @@
+.modal-image img{
+    height: 200px;
+    width: 220px;
+}
+.btn-modal-bn{
+ margin: 0 128px;
+}
+.btn-modal-bn:hover{
+    background-color: #5786c7 !important;
+}
+.modal-title{
+    margin-left: 317px;
+}
+.form-control{
+    background: rgb(0,200,240,0.3);
+}
+input[type=text]:focus {
+    background-color: rgb(243, 245, 245);
+  }
+
+@media screen and (max-width: 992px) {
+    .modal-title {
+    margin-left: 0px;
+    }
+    .btn-modal-bn{
+        margin: 0px 58px;
+    }
+  }
+@media screen and (max-width: 768px) {
+    .modal-title {
+    margin-left: 0px;
+    }
+    .btn-modal-bn{
+        margin: 0px 185px;
+    }
+  }
